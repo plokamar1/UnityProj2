@@ -1,0 +1,56 @@
+Initialize engine version: 4.5.4f1 (e036f44c54c9)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Mobility Radeon HD 5000 Series (ID=0x68e0)
+    Vendor:   ATI
+    VRAM:     1012 MB
+Default GameObject Tag: Player already registered
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Runtime/BaseClasses/Tags.cpp Line: 66)
+
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\plokamar1\Dropbox\Unityp\New game\Gamebuild\a2_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\plokamar1\Dropbox\Unityp\New game\Gamebuild\a2_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\plokamar1\Dropbox\Unityp\New game\Gamebuild\a2_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\plokamar1\Dropbox\Unityp\New game\Gamebuild\a2_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+- Completed reload, in  0.086 seconds
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+I hit Enemy
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:99)
+PlayerMovement:Die() (at C:\Users\fakramista\Dropbox\Unityp\New game\Assets\Scripts\PlayerMovement.cs:46)
+PlayerMovement:OnCollisionEnter(Collision) (at C:\Users\fakramista\Dropbox\Unityp\New game\Assets\Scripts\PlayerMovement.cs:35)
+ 
+(Filename: C Line: 0)
+
+UnloadTime: 0.888385 ms
+System memory in use before: 10.4 MB.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 10.3 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 176.
+Total: 0.871704 ms (FindLiveObjects: 0.008982 ms CreateObjectMapping: 0.016253 ms MarkObjects: 0.121901 ms  DeleteObjects: 0.007271 ms)
+
+I hit Enemy
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:99)
+PlayerMovement:Die() (at C:\Users\fakramista\Dropbox\Unityp\New game\Assets\Scripts\PlayerMovement.cs:46)
+PlayerMovement:OnCollisionEnter(Collision) (at C:\Users\fakramista\Dropbox\Unityp\New game\Assets\Scripts\PlayerMovement.cs:35)
+ 
+(Filename: C Line: 0)
+
+Level '' (2) couldn't be loaded because it has not been added to the build settings.
+To add a level to the build settings use the menu File->Build Settings...
+UnityEngine.Application:LoadLevelAsync(String, Int32, Boolean, Boolean)
+UnityEngine.Application:LoadLevel(Int32) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineApplication.cs:56)
+GameManager:completeLevel() (at C:\Users\fakramista\Dropbox\Unityp\New game\Assets\Scripts\GameManager.cs:14)
+PlayerMovement:OnTriggerEnter(Collider) (at C:\Users\fakramista\Dropbox\Unityp\New game\Assets\Scripts\PlayerMovement.cs:41)
+
+[C:/BuildAgent/work/d63dfc6385190b60/Runtime/Misc/Player.cpp line 269] 
+(Filename: C Line: 0)
+
